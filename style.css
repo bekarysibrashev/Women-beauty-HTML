@@ -1,0 +1,322 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+
+.navbar{
+    background-color:rgb(38,71,52);
+    height: 20px;
+    font-weight: light;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.whitebar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-color:rgb(255, 255, 255);
+    height: 50px;
+    padding-top: 17.5px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+}
+
+.disc{
+    position: absolute;
+    left:350px
+}
+
+.signin{
+    position: absolute;
+    right:350px
+}
+
+.home{
+    padding-bottom: 10px;
+    font-size: 30px;
+    position: relative;
+    bottom:8px;
+}
+
+img{
+    position: relative;
+}
+
+p{
+    line-height: 23px;
+}
+
+
+.headlink{
+    position: absolute;
+    top: 200px;
+    background-color:rgb(38,69,53);
+    width: 220px;
+    height: 30px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: white
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 100;
+    
+}
+
+.view-button{
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:rgb(254, 254, 233)
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+
+}
+
+.info p{
+    text-align: center;
+}
+
+h2{
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 50px
+
+}
+
+h3{
+    margin-bottom:13px
+}
+
+
+.headphoto{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.headlabel{
+    position: absolute;
+    top: 260px;
+    display: flex;  
+    justify-content: center;
+    
+
+}
+
+.headtext{
+    font-size: 60px;
+    text-align:center;
+    font-family:'Lora', serif;
+    color: white;
+}
+
+.content-block{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px
+
+}
+
+
+.link{
+    position: absolute;
+    top: 16px;
+    width: 143px;
+    height: 30px;
+    margin-left: 16px;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-left: 12px;
+    color:rgb(0, 0, 0);
+    font-size:13px
+}
+
+.link:hover{
+    border: solid rgb(243, 243, 243) 2px;
+    color:rgb(255, 255, 255)
+}
+
+.below{
+    position: absolute;
+    top: 16px;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    border: solid rgb(0, 0, 0) 2px;
+    border-radius: 15px;
+    padding-top: 7px;
+    color:rgb(0, 0, 0);
+    font-size:8px
+}
+
+.below:hover{
+    border: solid rgb(0, 0, 0) 2px;
+    background-color:rgb(186, 186, 186);
+    color:black
+}
+
+
+
+
+.linkinfo{
+    background-color:rgb(38,69,53);
+    width: 200px;
+    height: 30px;
+    margin-bottom:100px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px
+}
+
+.linkinfo a{
+    color:aliceblue
+
+}
+
+.bottom-content{
+    display:flex;
+    flex-direction:row;
+    position: relative;
+    left:240px;
+    margin-bottom: 100px;
+    width:1000px    
+    
+}
+
+.head-bottom{
+    position: absolute;
+    left: 670px;
+    margin-top:25px
+    
+}
+
+.head-bottom p,h5,h4{
+    width: 400px;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.head-bottom .linkinfo{
+    margin-left: 0px
+}
+
+.our-products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top:60px
+}
+
+.contact-us{
+    margin-top: 130px;
+    text-align: center;
+}
+
+#icon{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+
+#icon:hover{
+    background-color:rgb(222, 222, 222)
+}
+
+footer{
+    background-color: rgb(35, 35, 35);
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 70px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: ROW;
+    font-size:12px;
+    padding-left: 240px;
+    
+}
+
+footer h4{
+    width:100px;
+    margin-top: 0;
+}
+
+.bottom{
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.bottom-main{
+    padding-top: 40px;
+}
+
+.bottom-main h3{
+    font-size:16px
+}
+
+
+
+
+.footer-icon{
+    position: absolute;
+    top:60px;
+    right:300px
+}
+
+.email{
+    border: solid 1px white;
+    display: flex;
+    flex-direction: row;
+    height: 25px
+}
+
+span{
+    position: relative;
+    left: 120px;
+    font-size: 15px;
+}
